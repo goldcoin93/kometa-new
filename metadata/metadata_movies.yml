@@ -1,0 +1,159 @@
+templates:
+  Collection:
+    mapping_id: <<id>>
+  Movie:
+    mapping_id: <<id>>
+    url_poster: https://theposterdb.com/api/assets/<<poster>>
+metadata:
+##############################
+####### FRANCHISE NAME #######
+##############################
+#  Collection:
+#    template: {name: Collection, id: TMDB_ID, poster: TPDB_ID} 
+#  Movie:
+#    template: {name: Movie, id: TMDB_ID, poster: TPDB_ID}
+
+##############################
+############ SAW #############
+##############################
+  Saw Collection:
+    template: {name: Collection, id: 656, poster: 8423}
+  Saw:
+    template: {name: Movie, id: 176, poster: 8424}
+  Saw II:
+    template: {name: Movie, id: 215, poster: 8425}
+  Saw III:
+    template: {name: Movie, id: 214, poster: 8426}
+  Saw IV:
+    template: {name: Movie, id: 663, poster: 8427}
+  Saw V:
+    template: {name: Movie, id: 11917, poster: 8428}
+  Saw VI:
+    template: {name: Movie, id: 22804, poster: 8429}
+  Saw VII:
+    template: {name: Movie, id: 41439, poster: 8430}
+  Jigsaw:
+    template: {name: Movie, id: 298250, poster: 8431}
+  Spiral:
+    template: {name: Movie, id: 602734, poster: 167452}
+  Saw X:
+    template: {name: Movie, id: 951491, poster: 423984}
+
+##############################
+######### STAR WARS ##########
+##############################
+
+  Star Wars Episode IV - A New Hope:
+    template: {name: Movie, id: 11, poster: 1410}
+  Star Wars Episode V - The Empire Strikes Back:
+    template: {name: Movie, id: 1891, poster: 1411}
+  Star Wars Episode VI - Return of the Jedi:
+    template: {name: Movie, id: 1892, poster: 1412}
+  Star Wars Episode I - The Phantom Menace:
+    template: {name: Movie, id: 1893, poster: 1413}
+  Star Wars Episode II - Attack of the Clones:
+    template: {name: Movie, id: 1894, poster: 1414}
+  Star Wars Episode III - Revenge of the Sith:
+    template: {name: Movie, id: 1895, poster: 1415}
+  Star Wars Episode VII - The Force Awakens:
+    template: {name: Movie, id: 140607, poster: 1416}
+  Star Wars Episode VIII - The Last Jedi:
+   template: {name: Movie, id: 181808, poster: 1417}
+  Star Wars Episode IX - The Rise of Skywalker:
+   template: {name: Movie, id: 181812, poster: 48286}
+  Star Wars The Clone Wars:
+    template: {name: Movie, id: 12180, poster: 8797}
+  Rogue One - A Star Wars Story:
+    template: {name: Movie, id: 330459, poster: 8799}
+  Solo - A Star Wars Story:
+    template: {name: Movie, id: 348350, poster: 8801}
+
+#####################################
+########## Wizarding World ##########
+#####################################
+
+  Harry Potter and the Philosopher's Stone:
+    template: {name: Movie, id: tt0241527, poster: 166279}
+  Harry Potter and the Chamber of Secrets:
+    template: {name: Movie, id: tt0295297, poster: 166280}
+  Harry Potter and the Prisoner of Azkaban:
+    template: {name: Movie, id: tt0304141, poster: 166281}
+  Harry Potter and the Goblet of Fire:
+    template: {name: Movie, id: tt0330373, poster: 166282}
+  Harry Potter and the Order of the Phoenix:
+    template: {name: Movie, id: tt0373889, poster: 166283}
+  Harry Potter and the Half-Blood Prince:
+    template: {name: Movie, id: tt0417741, poster: 166284}
+  Harry Potter and the Deathly Hallows - Part 1:
+    template: {name: Movie, id: tt0926084, poster: 166285}
+  Harry Potter and the Deathly Hallows - Part 2:
+    template: {name: Movie, id: tt1201607, poster: 166286}
+  Fantastic Beasts and Where to Find Them:
+    template: {name: Movie, id: tt3183660, poster: 166287}
+  Fantastic Beasts - The Crimes of Grindelwald:
+    template: {name: Movie, id: tt4123430, poster: 166288}
+  Fantastic Beasts - The Secrets of Dumbledore:
+    template: {name: Movie, id: tt4123432, poster: 234767}
+
+###############################
+########## Equalizer ##########
+###############################
+  
+  The Equalizer: 
+    template: {name: Movie, id: tt0455944, poster: 112830}
+  The Equalizer 2:
+    template: {name: Movie, id: tt3766354, poster: 112831}
+  The Equalizer 3:
+    template: {name: Movie, id: tt17024450, poster: 406400}
+
+##################################
+########## Ghostbusters ##########
+##################################
+
+  Ghostbusters:
+    template: {name: Movie, id: tt0087332, poster: 7545}
+  Ghostbusters II:
+    template: {name: Movie, id: tt0097428, poster: 7546}
+  Ghostbusters - Afterlife:
+    template: {name: Movie, id: tt4513678, poster: 7547}
+
+##################################
+########## Middle Earth ##########
+##################################
+
+  The Hobbit - An Unexpected Journey:
+    template: {name: Movie, id: tt0903624, poster: 191457}
+  The Hobbit - The Desolation of Smaug:
+    template: {name: Movie, id: tt1170358, poster: 191458}
+  The Hobbit - The Battle of the Five Armies:
+    template: {name: Movie, id: tt2310332, poster: 191459}
+  The Lord of the Rings - The Fellowship of the Ring:
+    template: {name: Movie, id: tt0120737, poster: 191454}
+  The Lord of the Rings - The Two Towers:
+    template: {name: Movie, id: tt0167261, poster: 191455}
+  The Lord of the Rings - The Return of the King:
+    template: {name: Movie, id: tt0167260, poster: 191456}
+
+###################################
+########## Rocky - Creed ##########
+###################################
+
+  Rocky:
+    template: {name: Movie, id: tt0075148, poster: 54536}
+  Rocky II:
+    template: {name: Movie, id: tt0079817, poster: 54537}
+  Rocky III:
+    template: {name: Movie, id: tt0084602, poster: 54538}
+  Rocky IV:
+    template: {name: Movie, id: tt0089927, poster: 54539}
+  Rocky V:
+    template: {name: Movie, id: tt0100507, poster: 54540}
+  Rocky Balboa:
+    template: {name: Movie, id: tt0479143, poster: 54541}
+  Creed:
+    template: {name: Movie, id: tt3076658, poster: 22295}
+  Creed II:
+    template: {name: Movie, id: tt6343314, poster: 22296}
+  Creed III:
+    template: {name: Movie, id: tt11145118, poster: 347101}
+

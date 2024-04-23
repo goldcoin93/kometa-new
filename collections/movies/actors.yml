@@ -1,0 +1,68 @@
+templates:
+  Actor:
+    smart_filter:
+      all:
+        actor: tmdb
+      sort_by: release.desc
+    tmdb_person: <<person>>
+    sort_title: "!21_<<collection_name>>"
+    url_poster: https://theposterdb.com/api/assets/<<poster>>
+    sync_mode: sync
+    summary: <<collection_name>>'s Films
+    collection_mode: hide_items
+
+collections:
+
+  Denzel Washington:
+    template: {name: Actor, person: 5292, poster: 116380}
+  Jack Nicholson:
+    template: {name: Actor, person: 514, poster: 116376}
+  Anthony Hopkins:
+    template: {name: Actor, person: 4173, poster: 116389}
+  Samuel L. Jackson:
+    template: {name: Actor, person: 2231, poster: 48966}
+  Morgan Freeman:
+    template: {name: Actor, person: 192, poster: 48939}
+  Clint Eastwood:
+    template: {name: Actor, person: 190, poster: 47427}
+  Nicolas Cage:
+    template: {name: Actor, person: 2963, poster: 116368}
+  John Wayne:
+    template: {name: Actor, person: 4165, poster: 47451}
+  Leonardo Di Caprio:
+    template: {name: Actor, person: 6193, poster: 116370}
+  Pedro Pascal:
+    template: {name: Actor, person: 1253360, poster: 463184}
+  Jason Statham:
+    template: {name: Actor, person: 976, poster: 310748}
+  Ana de Armas:
+    template: {name: Actor, person: 224513, poster: 463337}
+  Kevin Costner:
+    template: {name: Actor, person: 1269, poster: 114400}
+  Emma Stone:
+    template: {name: Actor, person: 54693, poster: 84158}
+#  Neal McDonough:
+#    template: {name: Actor, person: 2203, poster: }
+  Margot Robbie:
+    template: {name: Actor, person: 234352, poster: 201756}
+  Mark Wahlberg:
+    template: {name: Actor, person: 13240, poster: 239138}
+  Liam Neeson:
+    template: {name: Actor, person: 3896, poster: 125692}
+  Kurt Russell:
+    template: {name: Actor, person: 6856, poster: 220138}
+  Keanu Reeves:
+    template: {name: Actor, person: 6384, poster: 436483}
+  Tom Cruise:
+    template: {name: Actor, person: 500, poster: 150195}
+  Matt Damon:
+    template: {name: Actor, person: 1892, poster: 47461}
+  Christopher Walken:
+    template: {name: Actor, person: 4690, poster: 239852}
+  Willem Dafoe:
+    template: {name: Actor, person: 5293, poster: 150198} 
+  Jennifer Lawrence:
+    template: {name: Actor, person: 72129, poster: 153222}  
+  Henry Cavill:
+    template: {name: Actor, person: 73968, poster: 464193}
+

@@ -1,0 +1,139 @@
+#######################
+##     Templates     ##
+#######################
+
+templates:
+  Recent:         #The plan is to call this template "Added-Leaving" for "Recently Added" and "Leaving Soon"
+    url_poster: https://theposterdb.com/api/assets/<<poster>>
+    sort_title: "!01_<<collection_name>>"
+    collection_mode: hide_items
+    collection_order: added.desc
+    sync_mode: sync
+  Tops:
+    url_poster: https://theposterdb.com/api/assets/<<poster>>
+    sort_title: "!14_<<collection_name>>"
+    collection_mode: hide_items
+    collection_order: custom
+    sync_mode: sync
+  Awards:
+    url_poster: https://theposterdb.com/api/assets/<<poster>>
+    sort_title: "!05_<<collection_name>>"
+    collection_mode: hide_items
+    collection_order: custom
+    sync_mode: sync
+
+          
+#############################
+##       Collections       ##
+#############################
+
+collections:
+
+#####################################
+## Recently Added and Leaving Soon ##
+#####################################
+  Recently Added:
+    template: {name: Recent, poster: 459110}
+    plex_search:
+      any: 
+        added: 15
+    summary: "Movies that were added to Plex in the last 15 days"
+
+########################################
+## Recommended (TOPs, Trendings, etc) ##
+########################################
+  Films at Home:
+    template: {name: Tops, poster: 463093}
+    radarr_taglist: filmsathome
+    sort_title: "!12_FilmsAtHome"
+    collection_order: added.desc
+    summary: "Movies recommended by the Instagram account @filmsathome"
+  Trending:
+    template: {name: Tops, poster: 201418}
+    trakt_list:
+      - https://trakt.tv/users/sigmund93/lists/most-watched-top-20
+    summary: "Trakt's Top 20 Trending Movies"
+  Most Watched:
+    template: {name: Tops, poster: 201417}
+    trakt_list:
+      - https://trakt.tv/users/sigmund93/lists/most-watched-movies-top-20-trakt
+    summary: "Trakt's Top 20 Most Watched Movies of the Week"
+
+############
+## Awards ##
+############
+#  IMDB Top 250:
+#    template: {name: Awards, poster: 396723}
+#    imdb_search:
+#      type: movie
+#      imdb_top: 250
+#    summary: "The IMDB Top 250"
+  IMDB Top 1000:
+    template: {name: Awards, poster: 264259}
+    imdb_search:
+      type: movie
+      imdb_top: 1000
+    summary: "The IMDB Top 1000 movies"
+  IMDB Bottom 1000:
+    template: {name: Awards, poster: 264260}
+    imdb_search:
+      type: movie
+      imdb_bottom: 1000
+    summary: "The IMDB Bottom 1000 movies"
+  Oscars Winners:
+    template: {name: Awards, poster: 192593}
+    imdb_search:
+      limit: 1000
+      release.after: 1970-01-01
+      event.winning: oscar
+    summary: "All the movies that have won an Oscar since 1970"
+#  Emmy Winners:
+#    template: {name: Awards, poster: }
+#    imdb_search:
+#      limit: 1000
+#      release.after: 1970-01-01
+#      event.winning: emmy
+#    summary: "All the movies that have won an Emmy since 1970"
+#  Golden Globe Winners:
+#    template: {name: Awards, poster: }
+#    imdb_search:
+#      limit: 1000
+#      release.after: 1970-01-01
+#      event.winning: golden
+#    summary: "All the movies that have won an Emmy since 1970"
+  
+  
+
+#################
+##    Trakt    ##
+#################
+
+#  Trending:
+#    template: {name: Suggestion, poster: 244021}  
+#    trakt_list:
+#      - https://trakt.tv/users/jjjonesjr33/lists/trakt-trending
+#    summary: "Movies Trending across the internet"
+    
+#  Popular:
+#    template: {name: Suggestion, poster: 244024}
+#    trakt_list:
+#      - https://trakt.tv/users/jjjonesjr33/lists/trakt-top-weekly
+#    summary: "A collection of the most watched movies over the past week."
+    
+#  Recommended:
+#    template: {name: Suggestion, poster: 213604}
+#    trakt_list:
+#      - https://trakt.tv/users/jjjonesjr33/lists/top-20-movies-of-the-week
+#    visible_home: range(01/01-12/31)
+#    visible_shared: range(01/01-12/31)
+#    summary: "Recommended Top Movies of the Week"
+    
+#  Newly Released:
+#    template: {name: Suggestion, poster: 213599}
+#    url_poster: https://theposterdb.com/api/assets/213599
+#    trakt_list:
+#      - https://trakt.tv/users/jjjonesjr33/lists/newly-released
+#    visible_home: range(01/01-12/31)
+#    visible_shared: range(01/01-12/31)
+#    summary: "A collection of newly-released movies in cinema and on streaming services."
+
