@@ -168,7 +168,7 @@ collections:
   Pandemic:
     template: {name: Special Genre, poster: 55837}
     trakt_list:
-      - https://trakt.tv/users/jjjonesjr33/lists/pandemic-virus-survival-guide
+      - https://trakt.tv/users/siskourso/lists/pandemic-movies
     summary: A Pandemic film resolves around widespread viruses, plagues, and diseases.
   Stand Up Comedy:
     template: {name: Special Genre, poster: 74610}

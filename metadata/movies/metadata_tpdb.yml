@@ -43,30 +43,30 @@ metadata:
 ######### STAR WARS ##########
 ##############################
 
-  Star Wars Episode IV - A New Hope:
-    template: {name: Movie, id: 11, poster: 1410}
-  Star Wars Episode V - The Empire Strikes Back:
-    template: {name: Movie, id: 1891, poster: 1411}
-  Star Wars Episode VI - Return of the Jedi:
-    template: {name: Movie, id: 1892, poster: 1412}
-  Star Wars Episode I - The Phantom Menace:
-    template: {name: Movie, id: 1893, poster: 1413}
-  Star Wars Episode II - Attack of the Clones:
-    template: {name: Movie, id: 1894, poster: 1414}
-  Star Wars Episode III - Revenge of the Sith:
-    template: {name: Movie, id: 1895, poster: 1415}
-  Star Wars Episode VII - The Force Awakens:
-    template: {name: Movie, id: 140607, poster: 1416}
-  Star Wars Episode VIII - The Last Jedi:
-   template: {name: Movie, id: 181808, poster: 1417}
-  Star Wars Episode IX - The Rise of Skywalker:
-   template: {name: Movie, id: 181812, poster: 48286}
-  Star Wars The Clone Wars:
-    template: {name: Movie, id: 12180, poster: 8797}
-  Rogue One - A Star Wars Story:
-    template: {name: Movie, id: 330459, poster: 8799}
-  Solo - A Star Wars Story:
-    template: {name: Movie, id: 348350, poster: 8801}
+#  Star Wars Episode IV - A New Hope:
+#    template: {name: Movie, id: 11, poster: 1410}
+#  Star Wars Episode V - The Empire Strikes Back:
+#    template: {name: Movie, id: 1891, poster: 1411}
+#  Star Wars Episode VI - Return of the Jedi:
+#    template: {name: Movie, id: 1892, poster: 1412}
+#  Star Wars Episode I - The Phantom Menace:
+#    template: {name: Movie, id: 1893, poster: 1413}
+#  Star Wars Episode II - Attack of the Clones:
+#    template: {name: Movie, id: 1894, poster: 1414}
+#  Star Wars Episode III - Revenge of the Sith:
+#    template: {name: Movie, id: 1895, poster: 1415}
+#  Star Wars Episode VII - The Force Awakens:
+#    template: {name: Movie, id: 140607, poster: 1416}
+#  Star Wars Episode VIII - The Last Jedi:
+#   template: {name: Movie, id: 181808, poster: 1417}
+#  Star Wars Episode IX - The Rise of Skywalker:
+#   template: {name: Movie, id: 181812, poster: 48286}
+#  Star Wars The Clone Wars:
+#    template: {name: Movie, id: 12180, poster: 8797}
+#  Rogue One - A Star Wars Story:
+#    template: {name: Movie, id: 330459, poster: 8799}
+#  Solo - A Star Wars Story:
+#    template: {name: Movie, id: 348350, poster: 8801}
 
 #####################################
 ########## Wizarding World ##########

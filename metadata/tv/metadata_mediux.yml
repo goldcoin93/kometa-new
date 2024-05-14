@@ -1,0 +1,114 @@
+metadata:
+  361753: # TVDB id for The Mandalorian. Set by Pejamas on MediUX. https://mediux.pro/sets/8086
+    url_poster: https://api.mediux.pro/assets/a8ad4f53-5b9d-4acb-91e4-af7dbc11c2a1
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/928b2198-0f78-4320-8cf2-368b805ee315
+      2:
+        url_poster: https://api.mediux.pro/assets/9933c8ac-0359-40ba-b11c-b5d77c9f9e71
+      3:
+        url_poster: https://api.mediux.pro/assets/76c6cdc7-f236-4428-a3e6-31cc44d5f590
+  393187: # TVDB id for Ahsoka. Set by Pejamas on MediUX. https://mediux.pro/sets/8084
+    url_poster: https://api.mediux.pro/assets/8f95155c-f64f-4463-b350-8972b1d11754
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/95407d28-a880-4a27-b7fd-7b72dd92648a
+  393190: # TVDB id for Star Wars: Visions. Set by Pejamas on MediUX. https://mediux.pro/sets/8085
+    url_poster: https://api.mediux.pro/assets/af819074-c6fc-4834-8d84-53728aa53459
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/0a9ed410-2084-4e81-bc04-88e42566a8ad
+      2:
+        url_poster: https://api.mediux.pro/assets/518edd6e-d623-45f4-acb5-428b8222f48b
+  393197: # TVDB id for The Acolyte. Set by Pejamas on MediUX. https://mediux.pro/sets/16078
+    url_poster: https://api.mediux.pro/assets/76f1e8ee-77ed-4e64-b479-5fcdc2903561
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/06364456-12fb-44d5-8eff-b5453a0b65c6
+  448549: # TVDB id for Star Wars: Tales of the Empire. Set by Pejamas on MediUX. https://mediux.pro/sets/19272
+    url_poster: https://api.mediux.pro/assets/56c39fc5-27d8-45cb-899d-cd1ed3816667
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/aaf48cd8-4756-4602-81f9-efa5f3b6dd62
+  393589: # TVDB id for The Book of Boba Fett. Set by Pejamas on MediUX. https://mediux.pro/sets/8082
+    url_poster: https://api.mediux.pro/assets/4998ad0d-ad9a-420a-8426-ca0a72f07f76
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/448a4ebc-867c-41ab-9779-42ce8d227d5d
+  420659: # TVDB id for Star Wars: Tales of the Jedi. Set by Pejamas on MediUX. https://mediux.pro/sets/8081
+    url_poster: https://api.mediux.pro/assets/eea8d9b2-73a4-4b3a-8d4c-f9bdbefc4430
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/74e383f2-fd9f-414d-9b5c-ec7f1df7d90a
+  385376: # TVDB id for Star Wars: The Bad Batch. Set by Pejamas on MediUX. https://mediux.pro/sets/8079
+    url_poster: https://api.mediux.pro/assets/7ce3a061-7913-42c7-84d6-80da8045192b
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/8d34a37e-5ebd-4e09-80fa-b8d53f9b9f26
+      2:
+        url_poster: https://api.mediux.pro/assets/8d6e994c-90c5-478c-ba6c-cce7ee866045
+      3:
+        url_poster: https://api.mediux.pro/assets/e6bbc867-5e21-40ec-b1f1-92ca08358200
+  83268: # TVDB id for Star Wars: The Clone Wars. Set by Pejamas on MediUX. https://mediux.pro/sets/8078
+    url_poster: https://api.mediux.pro/assets/a03b085c-8d4f-4eb2-88de-029defbf6d97
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/89f13d9e-65ba-40b7-975f-0ab14d94f106
+      2:
+        url_poster: https://api.mediux.pro/assets/27826ff1-d122-45f3-bcbf-8a53505d5947
+      3:
+        url_poster: https://api.mediux.pro/assets/8aa2a875-d7f5-4aaf-af8a-10341e7474ca
+      4:
+        url_poster: https://api.mediux.pro/assets/fcdf604f-5133-49c2-86aa-0cb4b329023e
+      5:
+        url_poster: https://api.mediux.pro/assets/ae96beb7-1ee5-440f-91a7-e8ddfce28ea0
+      6:
+        url_poster: https://api.mediux.pro/assets/147da59d-c875-40f0-8802-3906bfc2342f
+      7:
+        url_poster: https://api.mediux.pro/assets/64efed33-55d5-466d-8dfe-31550237bfbb
+  341164: # TVDB id for Yellowstone. Set by RuviLev on MediUX. https://mediux.pro/sets/15728
+    url_poster: https://api.mediux.pro/assets/1814c9f8-5a1c-4a74-837e-c526cc8a4dad
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/4187b9f1-d540-4069-901f-05764d9b7ab5
+      2:
+        url_poster: https://api.mediux.pro/assets/6c672d68-b706-476f-a31c-5bb0cbd0a878
+      3:
+        url_poster: https://api.mediux.pro/assets/ed9690a8-7fea-4cf0-80fb-77c69da0e8b3
+      4:
+        url_poster: https://api.mediux.pro/assets/53e238ed-fc0c-43b0-9b40-8e8c8cbd62ab
+      5:
+        url_poster: https://api.mediux.pro/assets/e604d943-3b94-431f-bd15-fbd5d98ee026
+  416491: # TVDB id for 1923. Set by RuviLev on MediUX. https://mediux.pro/sets/15717
+    url_poster: https://api.mediux.pro/assets/a219b62f-9bc6-4748-b7f6-68f7600a5f38
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/2b652d58-8423-44b9-b8ef-d7835c824f88
+  396390: # TVDB id for 1883. Set by willtong93 on MediUX. https://mediux.pro/sets/6546
+    url_poster: https://api.mediux.pro/assets/80605b1c-8769-4622-826a-92cbc27708a8
+    url_background: https://api.mediux.pro/assets/7c6a23f7-f53c-4ddc-9e4c-17f5ed1c3d0f
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/9fcae45c-4ec9-418f-8799-ed3a1082004b
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/3decf80e-7bbe-447d-b793-483ca9a42ae2
+          2:
+            url_poster: https://api.mediux.pro/assets/6615f114-099a-4f82-a786-451ccdc8a089
+          3:
+            url_poster: https://api.mediux.pro/assets/c9697293-4463-4cae-911b-b6ffe24daaa3
+          4:
+            url_poster: https://api.mediux.pro/assets/f8aa6831-b6f0-4854-a261-2cd205338456
+          5:
+            url_poster: https://api.mediux.pro/assets/6c4a931d-b8c8-4692-bd17-b92c691d4ece
+          6:
+            url_poster: https://api.mediux.pro/assets/7f8b9689-8d7a-468a-9c44-14499a4a6fd0
+          7:
+            url_poster: https://api.mediux.pro/assets/6834edba-5b18-4cd0-a70b-01daa9f46b7a
+          8:
+            url_poster: https://api.mediux.pro/assets/d5225db6-ac8a-42ca-aa8d-5e89b8bcce20
+          9:
+            url_poster: https://api.mediux.pro/assets/44eb00c2-927a-4a68-8f76-514284e712dc
+          10:
+            url_poster: https://api.mediux.pro/assets/41531491-d08e-40d1-87b1-82ed6944efd1
+

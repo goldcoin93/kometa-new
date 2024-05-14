@@ -5,7 +5,7 @@
 templates:
   Recent:         #The plan is to call this template "Added-Leaving" for "Recently Added" and "Leaving Soon"
     url_poster: https://theposterdb.com/api/assets/<<poster>>
-    sort_title: "!01_<<collection_name>>"
+    sort_title: "!02_<<collection_name>>"
     collection_mode: hide_items
     collection_order: added.desc
     sync_mode: sync
@@ -28,6 +28,23 @@ templates:
 #############################
 
 collections:
+
+#####################################################
+## Movies of the Day - Random Movies in Collection ##
+#####################################################
+  Movies of the Day:
+    plex_search:
+      all:
+        year.gte: 2015
+      sort_by: random
+      limit: 20
+    sort_title: "!01_<<collection_name>>"
+    url_poster: https://theposterdb.com/api/assets/487755
+    summary: "Movies made after 2015 grabbed randomly from Plex's entire library for your enjoyment!"
+    smart_label: random
+    sync_mode: sync
+    visible_shared: true
+    visible_library: true
 
 #####################################
 ## Recently Added and Leaving Soon ##

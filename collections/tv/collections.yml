@@ -8,6 +8,7 @@ templates:
 
 
 collections:
+
   The Planet Collection:
     template: {name: Collection, poster: 208678}
     trakt_list:
